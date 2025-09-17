@@ -28,13 +28,13 @@ const CtaSection = () => {
           {/* Right Actions */}
           <div className="flex flex-col sm:flex-row items-center gap-3">
             <Link
-              href="/about"
+              href="#about"
               className="bg-black text-[#FFD700] px-6 py-3 rounded-lg font-semibold transition hover:bg-[#FFD700] hover:text-black border border-[#FFD700]"
             >
               About Us
             </Link>
             <Link
-              href="/contact"
+              href="#contact"
               className="bg-[#FFD700] text-black px-6 py-3 rounded-lg font-semibold transition hover:bg-black hover:text-[#FFD700] border border-black"
             >
               Book a Service
